@@ -9,7 +9,9 @@ function frameIt(){
 }
 
 function pressIt(){
-  $("input").on()
+  $("input").on("keydown",function(key){
+    if(key.which===)
+  })
 }
 
 function submitIt(){
